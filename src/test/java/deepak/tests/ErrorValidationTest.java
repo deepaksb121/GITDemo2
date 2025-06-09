@@ -31,7 +31,7 @@ public class ErrorValidationTest extends BaseTest {
 		
 		homepage.AddProductToCart();
 		CartPage cartpage = homepage.goToCart();
-		Assert.assertEquals(cartpage.verifyProductName(), "ZARA COAT 3");  
+		Assert.assertEquals(cartpage.verifyProductName(), "ZARA COAT 334");  
 		
 
 	}
